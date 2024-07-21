@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/com.jaredrummler/colorpicker
+    implementation("com.jaredrummler:colorpicker:1.1.0")
 
     implementation(libs.appcompat)
     implementation(libs.material)
